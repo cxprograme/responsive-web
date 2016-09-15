@@ -175,6 +175,9 @@ header .main ul li a:active{
         margin: 1.5rem auto 0.5rem;
         text-align: center;
     }
+    header .top ul li a{
+        padding:0 1rem;
+    }
     header .main ul{
         text-align: center;
     }
@@ -187,13 +190,11 @@ header .main ul li a:active{
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 800px) {
-
-}
 @media only screen and (max-width: 480px){
-    header .top .tel{
+    header .top .tel {
         display: none;
     }
+
     header .main ul li{
         line-height: 3rem;
     }
